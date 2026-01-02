@@ -25,9 +25,9 @@ function getNextService(): AIService {
 // --- INICIO DEL SERVIDOR ---
 
 const server = serve({
-  port: 3000,
-  async fetch(request) {
-    const url = new URL(request.url);
+  port: process.env.PORT || 3000,
+  // ...
+});
 
     if (request.method === 'POST' && url.pathname === '/chat') {
       try {
