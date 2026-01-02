@@ -11,6 +11,7 @@ import { geminiService } from './services/gemini';
 const aiServices: AIService[] = [
   //huggingFaceService,
   geminiService,
+  cerebrasService,
 ];
 
 let currentServiceIndex = 0;

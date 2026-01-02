@@ -14,6 +14,7 @@
     "bun-types": "latest"
   },
   "dependencies": {
+    "@cerebras/cerebras_cloud_sdk": "^1.64.1",
     "dotenv": "^16.4.5"
   }
 }
