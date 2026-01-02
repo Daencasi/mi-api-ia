@@ -1,0 +1,19 @@
+{
+  "name": "mi-api-ia",
+  "version": "1.0.0",
+  "description": "Mi API de IA gratuita y rotativa",
+  "main": "index.ts",
+  "scripts": {
+    "start": "bun run index.ts",
+    "dev": "bun --watch run index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
